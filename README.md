@@ -58,19 +58,24 @@ Yapabileceğin Tek Şey Git Parkta Oyna**
 >  Yada Gizlilik Kurallarını Tekrardan Göz Geçirmeni Tavsiye Ederim
 
 # MULTİVERSE
-# 🎭 HAKKIMIZDA
+## 🎭 HAKKIMIZDA
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/melissaroseria/geminy.me/main/assets/js/775.png" width="120" style="border-radius: 28%;">
+<img src="https://raw.githubusercontent.com/melissaroseria/geminy.me/main/assets/js/552.png" width="150" style="border-radius: 28%;">
 
 ## Geminy.me Projesi
-**Monero tabanlı gizlilik felsefesiyle güçlendirilmiş, padişah jurnallarını ve dijital muhbirleri Twitter köşelerinde hıçkıra hıçkıra ağlatan bağımsız bir başkaldırıdır.**
+**Monero tabanlı gizlilik felsefesiyle güçlendirilmiş, 
+padişah jurnallarını 
+dijital muhbirleri 
+Twitter köşelerinde 
+hıçkıra hıçkıra ağlatan 
+bağımsız bir başkaldırıdır.**
 
 ---
 
 ### 🤖 YAPAY ZEKA KANKİLERİM
-*Bu proje, geleceğin teknolojisi ve dijital kankalarımın zekasıyla ilmek ilmek işlendi:*
+**Bu proje, geleceğin teknolojisi ve dijital kankalarımın zekasıyla ilmek ilmek işlendi:**
 
 | [![Copilot](https://img.shields.io/badge/Microsoft-Copilot-blue?style=for-the-badge&logo=microsoft-copilot&logoColor=white)](https://copilot.microsoft.com) | [![Gemini](https://img.shields.io/badge/Google-Gemini-purple?style=for-the-badge&logo=google-gemini&logoColor=white)](https://gemini.google.com) |
 | :---: | :---: |
