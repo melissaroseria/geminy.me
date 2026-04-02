@@ -1,0 +1,29 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^localhost/$ [NC]
+RewriteRule ^ - [F]
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+# Hata Sayfalarının Yönlendirilmesi
+DirectoryIndex index.html index.shtml index.htm Index.html Index.htm Index.shtml default.htm Default.htm default.html Default.html default.shtml Default.shtml page1.html index.pl index.cgi index.php index.php3 index.phtml home.htm home.html home.shtml index.wml index.pcgi quickstart.html
+
+# Ana Kaynaklar
+RewriteRule ^user$ /profile.php [L]
+
+# Admin Sayfaları
+RewriteRule ^premium$ /pages/premium.php [L]
+
+# Güvenlik
+RewriteCond %{HTTP_USER_AGENT} ^.*(SCspider|s2bot|BingBot).*$ [NC,OR]
+
+
+RewriteRule ^.* - [F,L]
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56___lsphp .php .php5 .phtml
+</IfModule>
+Options -Indexes
