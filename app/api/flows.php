@@ -10,8 +10,8 @@
 
 header('Content-Type: application/json; charset=utf-8');
 
-define('USERS_FILE', __DIR__ . '/data/users.json');
-define('MSGS_FILE',  __DIR__ . '/data/all_global_messages.json');
+define('USERS_FILE', __DIR__ . '../../data/users.json');
+define('MSGS_FILE',  __DIR__ . '../../data/all_global_messages.json');
 define('DATA_DIR',   __DIR__ . '/data');
 
 // ─── JSON yardımcıları ────────────────────────────────────────────────────────
